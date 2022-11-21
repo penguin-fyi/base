@@ -1,10 +1,11 @@
---- /etc/default/useradd	2020-09-07 08:42:01.000000000 -0500
-+++ /etc/default/useradd	2020-10-04 08:46:23.556308316 -0500
-@@ -4,6 +4,6 @@
- HOME=/home
- INACTIVE=-1
- EXPIRE=
+--- /etc/default/useradd	2022-11-20 18:51:22.493664007 -0600
++++ /etc/default/useradd	2022-11-20 18:52:35.114941036 -0600
+@@ -2,7 +2,7 @@
+ #
+ # The SHELL variable specifies the default login shell on your
+ # system.
 -SHELL=/bin/bash
 +SHELL=/usr/bin/zsh
- SKEL=/etc/skel
- CREATE_MAIL_SPOOL=no
+ 
+ # The default group for users
+ GROUP=users
