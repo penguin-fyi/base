@@ -1,47 +1,41 @@
-## penguin-base
+# penguin-base
 
-Extends Arch `base` with bootloader, networking, and shell tools.
+Source files for `penguin-base` [PKGBUILD](https://github.com/penguin-fyi/pkgbuilds/blob/main/penguin-base/)
 
-* base
-* curl
-* efibootmgr
-* fail2ban
-* git
-* gnupg
-* grub
-* linux-firmware
-* man-db
-* man-pages
-* networkmanager
-* openssh
-* pass
-* patch
-* pwgen
-* sudo
-* tmux
-* ufw
-* unzip
-* vi
-* vim
-* w3m
-* zip
-* zsh
+## Depends
+- base
+- curl
+- fail2ban
+- git
+- gnupg
+- man-db
+- man-pages
+- openssh
+- pass
+- patch
+- pwgen
+- sudo
+- tmux
+- ufw
+- unzip
+- vi
+- w3m
+- zip
+- zsh
 
-### Configs
-* etc/sudoers.d/10-wheel
+## Configs
+- etc/sudoers.d/10-wheel
 
-### Patches
-* etc/pacman.conf
+## Patches
+- etc/pacman.conf
 
-### Hooks
-* usr/share/libaplm/hooks/90-penguin-config-patch.hook
+## Hooks
+- usr/share/libaplm/hooks/90-penguin-config-patch.hook
 
-### Scripts
-* usr/share/libaplm/scipts/penguin-config-patch
+## Scripts
+- usr/share/libaplm/scipts/penguin-config-patch
 
-### Services
-* NetworkManager
-* sshd
-* ufw
-* fstrim
+## Services
+- sshd
+- ufw
 
