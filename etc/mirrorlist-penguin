@@ -3,4 +3,5 @@
 ################################################################################
 
 SigLevel = Optional TrustAll
-Server = https://repo.penguin.fyi/packages/$repo/$arch
+Server = https://repo.penguin.fyi/penguin/$repo/$arch
+Server = https://repo.linuxit.us/penguin/$repo/$arch
