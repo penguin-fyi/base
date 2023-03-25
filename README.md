@@ -5,7 +5,6 @@ Source files for `penguin-base` [PKGBUILD](https://github.com/penguin-fyi/pkgbui
 ## Depends
 - base
 - curl
-- fail2ban
 - git
 - gnupg
 - man-db
@@ -15,7 +14,6 @@ Source files for `penguin-base` [PKGBUILD](https://github.com/penguin-fyi/pkgbui
 - patch
 - pwgen
 - sudo
-- tmux
 - ufw
 - unzip
 - vi
@@ -25,6 +23,7 @@ Source files for `penguin-base` [PKGBUILD](https://github.com/penguin-fyi/pkgbui
 
 ## Configs
 - etc/sudoers.d/10-wheel
+- etc/pacman.d/mirrorlist-penguin
 
 ## Patches
 - etc/pacman.conf
@@ -36,6 +35,7 @@ Source files for `penguin-base` [PKGBUILD](https://github.com/penguin-fyi/pkgbui
 - usr/share/libaplm/scipts/penguin-config-patch
 
 ## Services
+- NetworkManager
 - sshd
 - ufw
-
+- fstrim
